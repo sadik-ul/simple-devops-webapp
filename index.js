@@ -1,17 +1,11 @@
 // index.js
-
 const http = require('http');
 
 const server = http.createServer((req, res) => {
-  // Set the response HTTP header with status and content type
   res.writeHead(200, { 'Content-Type': 'text/plain' });
-
-  // Send the response body "Hello"
-  res.end('Hello World!\n');
+  res.end('Hello from Node.js!');
 });
 
-// Server listens on port 3000
-const port = 3000;
-server.listen(port, () => {
-  console.log(`Server running at http://localhost:${port}/`);
+server.listen(3000, () => {
+  console.log('Server running at http://localhost:3000/');
 });
