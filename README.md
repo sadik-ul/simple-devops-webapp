@@ -1,16 +1,12 @@
-# Simple DevOps Web App
+# Simple DevOps WebApp
 
-A basic Node.js app deployed with GitHub Actions.
+A simple Node.js web server that responds with "Hello from Node.js!".
 
-## Features
-
-- Express.js Hello World server
-- CI pipeline with GitHub Actions
-- Ready for deployment to Render/Vercel/Railway
-
-## Run Locally
+## How to run
 
 ```bash
 npm install
 npm start
-# simple-devops-webapp
+```
+
+Visit: http://localhost:3000
