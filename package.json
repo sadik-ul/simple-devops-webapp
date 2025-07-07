@@ -1,10 +1,11 @@
 {
   "name": "simple-devops-webapp",
   "version": "1.0.0",
+  "description": "Simple Node.js web app",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "dependencies": {}
+  "author": "Sadik",
+  "license": "MIT"
 }
-
